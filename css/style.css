@@ -1,0 +1,235 @@
+/*
+color scheme
+terra cotta: #DF726B
+flax: #E6CE80
+umber: #64523F
+weldon blue: #7F9CAC
+silver: #C1C7BA
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+
+div.headline {
+  padding: 0px;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #000;
+}
+.navbar-inverse a.navbar-brand {
+  color: #FFF;
+}
+.navbar-inverse a.navbar-brand:hover {
+  color: #DF726B;
+}
+.navbar-inverse .navbar-nav>li>a {
+  padding: 20px 15px;
+  color: #FFF;
+  font: 20px 'Open Sans Condensed', sans-serif;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #7F9CAC;
+}
+.navbar-brand {
+  color: #FFF;
+  font-family: 'Satisfy', cursive;
+  height: 70px;
+  padding: 25px 15px;
+  font-size: 28px;
+}
+.carousel {
+  margin-top: 70px;
+}
+.carousel-content {
+  position: absolute;
+  z-index: 20;
+  color: #000;
+}
+
+h3 {
+  font: 40px 'Satisfy', cursive;
+  color: #FFF;
+}
+h4 {
+  font: 28px 'Open Sans Condensed', sans-serif;
+  color: #FFF;
+}
+.slide1 {
+  left: 50%;
+  bottom: 50%;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.slide2, .slide3 {
+  left: 20%;
+  top: 50%;
+  text-shadow: 0 1px 2px rgba(0,0,0,1);
+}
+.slide4 {
+  left: 40%;
+  bottom: 20%;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.featurette-heading {
+  font: 45px 'Satisfy', cursive;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+#first-featurette-heading {
+  margin-top: 0px;
+}
+a:hover {
+  text-decoration: none;
+}
+p,ul,li {
+  font: 20px 'Open Sans', sans-serif;
+}
+li {
+  font-weight: 100;
+}
+.mobile-quote {
+  display: none;
+}
+
+/* Responsive Google iFrame */
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer > div.row > div.col-lg-12 > p {
+  font: 18px 'Open Sans Condensed', sans-serif;
+}
+.slide4-text {
+  text-align: right;
+  padding-right: 140px;
+}
+h4.slide4-text {
+  font: 20px 'Open Sans Condensed', sans-serif;
+}
+
+
+@media(max-width:992px) {
+  .slide1 {
+    left: 40%;
+    bottom: 45%;
+  }
+  .slide2 {
+    left: 20%;
+    top: 40%;
+    text-shadow: 0 1px 2px rgba(0,0,0,1);
+  }
+  .slide4 {
+    bottom: 25%;
+  }
+  .slide4-text {
+    padding-right: 75px;
+  }
+
+  h3,h4 {
+    margin: 5px 0px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+
+}
+@media(max-width:768px) {
+  .slide2 {
+    top: 20%;
+  }
+  .featurette-image-3 {
+      max-width: 100%;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+}
+@media(max-width:668px) {
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h4.slide4-text {
+    display: none;
+  }
+  .mobile-quote {
+    display: block;
+  }
+  .quote-display {
+    background-image: url("../img/quotation-marks-left02.png");
+    background-repeat: no-repeat;
+    padding: 25px;
+  }
+  .slide1 {
+    top: 10%;
+    left: 15%;
+  }
+  .slide3 {
+    top: 35%;
+  }
+  .slide4 {
+    top: 45%;
+  }
+  .slide4-text {
+    padding: 0px;
+  }
+
+}
+@media(max-width:376px) {
+  h3 {
+    font-size: 20px;
+    margin: 2px 0px;
+  }
+  h4 {
+    font-size: 14px;
+    margin: 2px 0px;
+  }
+  .slide2 {
+    top: 10%;
+  }
+  .slide3 {
+    top: 35%;
+  }
+  .featurette-heading {
+    font-size: 30px;
+  }
+  h2.text-muted {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  li {
+    font-size: 16px;
+  }
+  footer > div.row > div.col-lg-12 > p {
+    font-size: 12px;
+  }
+}
+@media(max-width:320px) {
+  .slide4 {
+    top: 30%;
+  }
+}
